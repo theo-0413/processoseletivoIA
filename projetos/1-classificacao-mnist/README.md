@@ -68,11 +68,11 @@ projetos/1-classificacao-mnist/
 
 ## ⚠️ Restrições e Considerações de Engenharia
 
-- Entrada do modelo: imagens 28x28, 1 canal (grayscale), normalizadas em [0, 1]
-- CNN simples — evite arquiteturas muito profundas
-- Não utilize modelos pré-treinados
-- Número de épocas limitado (ex: até 15, com early stopping)
-- Treinamento apenas em CPU
+- Entrada do modelo: imagens 28x28, 1 canal (grayscale), normalizadas em [0, 1];
+- CNN simples — evite arquiteturas muito profundas;
+- Não utilize modelos pré-treinados;
+- Número de épocas limitado (ex: até 15, com early stopping);
+- Treinamento apenas em CPU.
 
 ## ⚖️ Critérios de Avaliação
 
@@ -110,3 +110,6 @@ Dificuldades encontradas, decisões técnicas importantes, limitações do model
 ### 6️⃣ Exemplo de Inferência
 
 Cole a saída do terminal ao rodar `run_inference.py` (predito vs. real para as 5+ amostras), e comente brevemente se houve algum caso interessante (acerto ou erro) entre as amostras testadas.
+
+teste
+teste
