@@ -1,6 +1,6 @@
 # Processo Seletivo – Intensivo Maker | Relatório do Candidato
 ### Théo Pereira de Souza
-### https://github.com/theo-0413
+### github.com/theo-0413
 
 ## Resumo da Arquitetura do Modelo
 A arquitetura utilizada seguiu as instruções sugeridas: depois da importação de todas as devidas bibliotecas, há o carregamento do dataset MNIST, junto do split explícito de treino/validação. A CNN conta com três blocos convolucionais, cada um deles contando com camadas de Conv2D, BatchNormalization, Ativação relu e MaxPooling2D respectivamente. Além do bloco de camadas densas, foi implementado um sistema de EarlyStopping, otimizando a eficiência da CNN uma vez que o modelo termina o treinamento se for detectado a parada do avanço da melhora.
