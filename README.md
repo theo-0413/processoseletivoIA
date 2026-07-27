@@ -26,11 +26,15 @@ A otimização mostra os seguintes resultados:
 
 O que equivale a uma redução de tamanho de cerca de 91.56%. Por fim, a execução do run_inferece.py com 5 amostras retorna os seguintes resultados:
 >Rodando inferencia em 5 amostras usando model.tflite:
->> Amostra 1: predito=7 | real=7
->> Amostra 2: predito=2 | real=2
->> Amostra 3: predito=1 | real=1
->> Amostra 4: predito=0 | real=0
->> Amostra 5: predito=4 | real=4
+> Amostra 1: predito=7 | real=7
+
+> Amostra 2: predito=2 | real=2
+
+> Amostra 3: predito=1 | real=1
+
+> Amostra 4: predito=0 | real=0
+
+> Amostra 5: predito=4 | real=4
 
 Analisando essas amostras, é perceptível o quão preciso é o modelo construído a partir desta atividade prática.
 
